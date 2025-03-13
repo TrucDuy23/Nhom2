@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phan Trúc Duy - Trang Cá Nhân</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(to right, #ff9a9e, #fad0c4);
+            color: #333;
+            transition: background 0.5s;
+        }
+        .profile-container {
+            text-align: center;
+            padding: 50px 20px;
+            background: linear-gradient(135deg, #007bff, #00c6ff);
+            color: white;
+            border-radius: 0 0 50px 50px;
+        }
+        .profile-img {
+            width: 150px;
+            border-radius: 50%;
+            border: 4px solid white;
+            margin-bottom: 15px;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .profile-img:hover {
+            transform: scale(1.2);
+            box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.3);
+        }
+        .section {
+            padding: 40px;
+            background: white;
+            margin: 20px auto;
+            border-radius: 15px;
+            box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+            max-width: 800px;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .section:hover {
+            transform: translateY(-5px);
+            box-shadow: 0px 6px 16px rgba(0, 0, 0, 0.2);
+        }
+        h2 {
+            color: #007bff;
+            font-weight: bold;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        ul li {
+            padding: 8px 0;
+            border-bottom: 1px solid #eee;
+        }
+        ul li:last-child {
+            border-bottom: none;
+        }
+        footer {
+            background: #007bff;
+            color: white;
+            padding: 15px 0;
+            text-align: center;
+            margin-top: 30px;
+            border-radius: 10px 10px 0 0;
+        }
+        a {
+            color: #007bff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="profile-container">
+        <img src="https://scontent-hkg4-1.xx.fbcdn.net/v/t39.30808-6/483734044_2234886376925873_5693078083890430557_n.jpg?stp=dst-jpg_s206x206_tt6&_nc_cat=106&ccb=1-7&_nc_sid=fe5ecc&_nc_eui2=AeEVAhRx71AOku4WERINLGZSEbP0ajphwLoRs_RqOmHAunBQbqR5AoZpjEPsBDN2XQ3eWXElix-PFHB-q0oVL0Ta&_nc_ohc=-ZcN4KJ510IQ7kNvgFANXvh&_nc_oc=Adi3eMGhN66uyqwOoFboWR2SKaYyoppp9lGrpUYLV0jDMewle5c-BJcooQz39lwV97MFwpNMEkcN_WDWpcoEbc5U&_nc_zt=23&_nc_ht=scontent-hkg4-1.xx&_nc_gid=Axbk-ZQzVqS0lJWI2XhOGM5&oh=00_AYGgK6043IwxLuwbqi5eO4Mj9XXbxx-7xwWdqigJfeT2Aw&oe=67D87249" alt="Phan Trúc Duy" class="profile-img">
+        <h1>Phan Trúc Duy</h1>
+        <p>Backend Developer | Thích du lịch</p>
+    </div>
+
+    <div class="container section" id="personal-info">
+        <h2>Thông tin cá nhân</h2>
+        <p><strong>Họ tên:</strong> Phan Trúc Duy</p>
+        <p><strong>Ngày sinh:</strong> 06/01/2003</p>
+        <p><strong>Quê quán:</strong> TP. Hồ Chí Minh, Việt Nam</p>
+        <p><strong>Định hướng nghề nghiệp:</strong> Phát triển Backend, DevOps</p>
+    </div>
+
+    <div class="container section">
+        <h2>Quá trình học tập</h2>
+        <p><strong>Các môn quan trọng:</strong> Lập trình Backend, Cấu trúc dữ liệu & Giải thuật, Cơ sở dữ liệu</p>
+        <h3>Dự án thực hiện</h3>
+        <ul>
+            <li><strong>Khóa Học:</strong> Hệ thống hỗ trợ học tập giúp sinh viên quản lý khóa học, tài liệu.</li>
+            <li><strong>Website Bán Hàng:</strong> Trang web thương mại điện tử, hỗ trợ giỏ hàng, thanh toán online.</li>
+        </ul>
+    </div>
+
+    <div class="container section">
+        <h2>Kỹ năng</h2>
+        <ul>
+            <li>Backend Development (Node.js, .NET, Java, PHP)</li>
+            <li>Database (SQL Server, MySQL, PostgreSQL)</li>
+            <li>API Development (RESTful, GraphQL)</li>
+            <li>Thiết kế hệ thống & tối ưu hiệu năng</li>
+        </ul>
+    </div>
+
+    <div class="container section">
+        <h2>Liên hệ</h2>
+        <p>GitHub: <a href="https://github.com/TrucDuy23" target="_blank">TrucDuy23</a></p>
+        <p>Email: trucduy.dev@gmail.com</p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/trucduy" target="_blank">linkedin.com/in/trucduy</a></p>
+    </div>
+
+    <footer>
+        &copy; 2025 Phan Trúc Duy
+    </footer>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const sections = document.querySelectorAll(".section");
+            sections.forEach(section => {
+                section.addEventListener("click", function () {
+                    alert("Bạn đã nhấn vào " + section.querySelector("h2").innerText);
+                });
+            });
+
+            // Thay đổi màu nền động
+            let colors = ["#ff9a9e", "#fad0c4", "#a18cd1", "#fbc2eb", "#8fd3f4"];
+            let index = 0;
+            setInterval(() => {
+                document.body.style.background = `linear-gradient(to right, ${colors[index]}, ${colors[(index+1) % colors.length]})`;
+                index = (index + 1) % colors.length;
+            }, 5000);
+        });
+    </script>
+</body>
+</html>
